@@ -6,7 +6,7 @@ if [ -z "$conda_base" ]; then
 fi
 source "${conda_base}/etc/profile.d/conda.sh"
 
-conda activate pcsv
+conda activate spcv
 
 cd $SCRIPT_DIR
 
