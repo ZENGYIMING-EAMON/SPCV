@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: chamferdist
+Version: 1.0.0
+Summary: Pytorch Chamfer distance
+License: UNKNOWN
+Platform: UNKNOWN
+Provides-Extra: dev
+
+A pytorch module to compute Chamfer distance                     between two point sets (pointclouds).
+

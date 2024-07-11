@@ -1,0 +1,4 @@
+# ninja log v5
+0	14048	1657446378960878541	/home/zhang_20/workspace/codebase/CD/build/temp.linux-x86_64-3.8/chamferdist/knn_cpu.o	525e63722dd3e931
+0	16552	1657446381464887736	/home/zhang_20/workspace/codebase/CD/build/temp.linux-x86_64-3.8/chamferdist/ext.o	74e1742e1362934d
+0	48030	1657446412917003217	/home/zhang_20/workspace/codebase/CD/build/temp.linux-x86_64-3.8/chamferdist/knn.o	21b56d2e79e98fed

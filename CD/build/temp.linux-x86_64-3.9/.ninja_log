@@ -1,0 +1,4 @@
+# ninja log v5
+0	34289	1658148191475211566	/home/zeng_19/PL2022/CD/build/temp.linux-x86_64-3.9/chamferdist/ext.o	b74f4c8a3300af89
+23	37771	1658148194963178156	/home/zeng_19/PL2022/CD/build/temp.linux-x86_64-3.9/chamferdist/knn_cpu.o	4e049393389df3b
+22	131043	1658148288170285516	/home/zeng_19/PL2022/CD/build/temp.linux-x86_64-3.9/chamferdist/knn.o	106b558cea270259
