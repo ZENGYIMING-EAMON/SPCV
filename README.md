@@ -1,4 +1,9 @@
 # SPCV
+
+![Beam Image](https://github.com/ZENGYIMING-EAMON/SPCV/blob/main/images/beam_image.png?raw=true)
+
+![GIF](https://github.com/your-username/your-repository/blob/main/images/animation.gif?raw=true)
+
 This repository includes the source code of the paper [Dynamic 3D Point Cloud Sequences as 2D Videos](https://arxiv.org/abs/2403.01129).
 
 Authors: [Yiming Zeng](https://scholar.google.com/citations?user=1BSTaEUAAAAJ&hl=zh-TW), [Junhui Hou](https://sites.google.com/site/junhuihoushomepage/), [Qijian Zhang](https://keeganhk.github.io/), [Siyu Ren](https://scholar.google.com/citations?user=xSm7_VwAAAAJ&hl=en), [Wenping Wang](https://engineering.tamu.edu/cse/profiles/Wang-Wenping.html).
