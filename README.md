@@ -1,3 +1,31 @@
+# SPCV
+This repository includes the source code of the paper [Dynamic 3D Point Cloud Sequences as 2D Videos](https://arxiv.org/abs/2403.01129).
+
+Authors: [Yiming Zeng](https://scholar.google.com/citations?user=1BSTaEUAAAAJ&hl=zh-TW), [Junhui Hou](https://sites.google.com/site/junhuihoushomepage/), [Qijian Zhang](https://keeganhk.github.io/), [Siyu Ren](https://scholar.google.com/citations?user=xSm7_VwAAAAJ&hl=en), [Wenping Wang](https://engineering.tamu.edu/cse/profiles/Wang-Wenping.html).
+
+###  <a href="https://arxiv.org/pdf/2403.01129" target="_blank">Paper PDF</a> </a>
+
+### Install all dependencies  
+```shell
+git clone https://github.com/ZENGYIMING-EAMON/SPCV.git
+cd SPCV 
+conda create -n SPCV python=3.8
+conda activate SPCV
+
+# install pytorch (https://pytorch.org/)
+pip install torch==1.10.1+cu111 torchvision==0.11.2+cu111 torchaudio==0.10.1+cu111 --extra-index-url https://download.pytorch.org/whl/cu111
+
+# install pytorch3d 0.7.3 
+pip install "git+https://github.com/facebookresearch/pytorch3d.git@e245560abb8f019a24880faf7557ed3b2eec6cc0"
+
+# install other dependencies
+conda env update --file environment.yml
+pip install -r requirements.txt 
+```
+
+<details>
+  <summary> Pip Dependencies (click to expand) </summary>
+
 absl-py==1.4.0
 addict==2.4.0
 aiohttp==3.8.1
@@ -172,3 +200,31 @@ wrapt==1.15.0
 yacs @ file:///home/conda/feedstock_root/build_artifacts/yacs_1645705974477/work
 yarl==1.8.2
 zipp==3.15.0
+
+</details>
+
+
+### Quick start 
+```
+bash ./run.sh
+```
+
+
+### Generate Data for Training
+
+The process has been integrated into the `run.sh` script. You can change the name `swing_pick_objs` in these four Python scripts to point the pipeline to your own mesh sequences folder.
+
+If you want to start from raw point cloud sequences, you can omit the mesh folder in these scripts and start from the folder `xxx_objs_sample1w`, then scale and process them into `xxx_objs_sample1w_fpsUnify`.
+
+
+
+### Citation 
+If you find our code or paper helps, please consider citing:
+```
+@article{zeng2024dynamic,
+  title={Dynamic 3D Point Cloud Sequences as 2D Videos},
+  author={Zeng, Yiming and Hou, Junhui and Zhang, Qijian and Ren, Siyu and Wang, Wenping},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  year={2024},
+}
+``` 
