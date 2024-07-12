@@ -2,7 +2,7 @@
 
 ![Beam Image](https://github.com/ZENGYIMING-EAMON/SPCV/blob/main/images/beam_image.png?raw=true)
 
-![GIF](https://github.com/your-username/your-repository/blob/main/images/animation.gif?raw=true)
+![GIF](https://github.com/ZENGYIMING-EAMON/SPCV/blob/main/images/animation.gif?raw=true)
 
 This repository includes the source code of the paper [Dynamic 3D Point Cloud Sequences as 2D Videos](https://arxiv.org/abs/2403.01129).
 
